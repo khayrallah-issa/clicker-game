@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://www.nemosciencemuseum.nl/media/filer_public_thumbnails/filer_public/1e/a9/1ea907d0-93b3-4704-86f1-28e8f6743f4e/sterrenhemel.jpg__1440x855.0_q85_crop_upscale.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.upgrade-buttons {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.aard-clicker {
+    font-size: 120px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.upgrade-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 10px; 
+}
+
+.upgrade-button:hover {
+    background-color: #45a049;
+}

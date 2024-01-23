@@ -1,0 +1,32 @@
+.top {
+    color: gold;
+    text-align: center;
+}
+.midle {
+    color: rgb(225, 233, 9);
+}
+.picture1 {
+    position: absolute;
+    text-align: left;
+    top: 0px;
+   
+}
+.picture2 {
+    position: absolute;
+right: 0px;
+top: 0px;
+}
+.picture3 {
+    position: absolute;
+    bottom: 0px;
+    right: 400px;
+   
+}
+body {
+    background-color: black; 
+  }
+  .aarde {
+    position:absolute;
+    right: 550px;
+    bottom: 150px;
+  }
